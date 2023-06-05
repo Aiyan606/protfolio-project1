@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+section.wow{
+  height: 100vh;
+  padding: 100px;
+  background: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.text{
+  width: 50%;
+  float: left;
+  margin-top: 200px;
+  margin-left: 90px; 
+  padding-top: 100px;
+}
+.text2{
+  font-size: 40px;
+  font-weight: 200;
+}
+.text1{
+  color: rgb(226, 44, 120);
+  margin-top: 50px;
+  font-size: 50px;
+}
+.ptag1{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(97, 93, 93);
+  font-size: 22px;
+}
+.btn{
+  border: 2px none rgb(226, 44, 120);
+  background: linear-gradient(to right,tomato,rgb(226, 44, 120));
+  padding: 15px 40px;
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 5px;
+  transition: all .5s linear;
+}
+.btn:hover{
+  background: transparent;
+  border: 2px solid rgb(226, 44, 120);
+  color: rgb(226, 44, 120);
+  cursor: pointer;
+}
+.picture1{
+  width: 30%;
+  float: left;
+  padding-top: 120px;
+}
+.picture1 img{
+  width: 600px;
+}
+section.nice{
+  height: 100vh;
+  background: url(../img/biography-bg.png);
+}
+.picture2{
+  width: 30%;
+  float: left;
+  padding-top: 70px;
+  padding-left: 300px;
+
+}
+.picture2 img{
+  width: 550px;
+  
+}
+.content{
+  width: 30%;
+  float: left;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.content1{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.ptag2{
+  margin-bottom: 45px;
+  color: rgb(97, 93, 93);
+  font-size: 22px;
+  
+}
+section.work{
+  height: 100vh;
+  background: url(../img/latest-work-bg.png);
+}
+.work2{
+  text-align: center;
+  font-size: 40px;
+  padding: 130px;
+  font-size: 45px;
+}
+.picture3{
+  width: 20%;
+  float: left;
+  padding-left: 100px;
+}
+.picture3 img:hover{
+  cursor: pointer;
+}
+.picture4{
+  width: 20%;
+  float: left;
+  padding: 0 200px;
+}
+.picture4 img:hover{
+  cursor: pointer;
+}
+.picture5{
+  width: 20%;
+  float: left;
+}
+.picture5 img:hover{
+  cursor: pointer;
+}
+section.end{
+  height: 100vh;
+  background: url(../img/footer-bg.png);
+  text-align: center;
+}
+.footer{
+  padding-top: 200px;
+}
+.end1{
+  font-size: 60px;
+  font-weight: 200;
+}
+.end2{
+  padding-top: 60px;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+.end4{
+  padding-top: 55px;
+  padding-bottom: 45px;
+  font-size: 22px;
+}
+.btnt{
+  border: 2px none rgb(226, 44, 120);
+  background-color: rgb(226, 44, 120);
+  padding: 25px 190px;
+  color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-bottom: 190px;
+  transition: all 1s linear;
+  
+}
+.btnt:hover{
+  cursor: pointer;
+  border: 2px solid rgb(226, 44, 120);
+  color: rgb(226, 44, 120);
+  background: transparent;
+
+}
+.end5{
+  font-size: 22px;
+  color: rgb(126, 123, 123);
+}
